@@ -1,0 +1,15 @@
+main: BlockNotifications
+name: BlockNotifications
+version: 0.0.1
+author: MuchDan
+api-version: 1.16
+
+commands:
+  Notify:
+    description: Alerts a staff member when a player places, destroys, drops, or picks up restricted items
+    permission: BlockNotifications.notify
+    permission-message: You don't have permission to do that!
+
+  BlockNotifications:
+    description: Reload BlockNotifications
+    permission: BlockNotifications.BlockNotifications

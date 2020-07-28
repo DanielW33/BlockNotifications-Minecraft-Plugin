@@ -1,0 +1,32 @@
+##########################
+##  BlockNotifications
+##  Created by: MuchDan
+##  Purpose: Potentially catch hackers, dupers, and cheaters in general by detecting when valuable blocks are being distributed.
+##
+##  File Notes:
+##   - Block is main Section
+##   - Block Materials are the materials that can be placed/Broken
+##   - Blocks/Items that can be picked up
+Blocks:
+  BlockMaterial:
+    - DIAMOND_BLOCK
+    - DIAMOND_ORE
+    - EMERALD_BLOCK
+    - EMERALD_ORE
+    - GOLD_ORE
+    - GOLD_BLOCK
+    - IRON_BLOCK
+    - IRON_ORE
+  ItemMaterial:
+    - DIAMOND
+    - DIAMOND_BLOCK
+    - DIAMOND_ORE
+    - EMERALD
+    - EMERALD_BLOCK
+    - EMERALD_ORE
+    - GOLD_INGOT
+    - GOLD_BLOCK
+    - GOLD_ORE
+    - IRON_INGOT
+    - IRON_BLOCK
+    - IRON_ORE
